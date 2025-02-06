@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    display: flex;
+}
+
+.box3, .box4{
+    width: 50%;
+    height: 300px;
+}
+
+.box5, .box6{
+    height: 150px;
+}
+
+.box1{
+    background-color:aqua;
+    height: 150px;
+}
+
+.box2{
+    background-color:blue;
+    height: 50px;
+}
+
+.box3{
+    background-color:crimson;
+}
+
+.box4{
+    background-color:darkcyan;
+}
+
+.box5{
+    background-color:darkorange;
+}
+
+.box6{
+    background-color:hotpink;
+}
+
+.box7{
+    height: 50px;
+    background-color:dimgrey;
+}
