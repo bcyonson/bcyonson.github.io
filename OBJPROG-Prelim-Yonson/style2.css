@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero {
+    position: relative;
+    height: 100vh;
+    background-image: url('images/logo1.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .text-content {
+    align-self: flex-end; /* Aligns the text to the right */
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Adds a semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  p {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  
